@@ -1,6 +1,30 @@
 // Here you can easily change your sites's color scheme.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
+$noise-bg: image-url('noise.png') top left;
+
+
+$main-bg: #f0eee0;
+$title-color: #f2f2f2;
+$text-color-light: darken($main-bg, 35);
+$header-bg: #333;
+$nav-bg: #83b2b4;
+$nav-bg-back: $nav-bg;
+$nav-link-bg: $nav-bg;
+$nav-link-bg-hover: darken($nav-bg, 10);
+$nav-color: black;
+$nav-border: none;
+$nav-border-top: none;
+$nav-border-bottom: none;
+$nav-border-left: none;
+$nav-border-right: none;
+$nav-color-hover: lighten($main-bg, 20);
+
+$footer-bg: $nav-bg;
+$footer-color: darken($footer-bg, 30);
+
+$sidebar-bg: darken($main-bg, 10);
+
 
 //$header-bg: #263347;
 //$subtitle-color: lighten($header-bg, 58);
