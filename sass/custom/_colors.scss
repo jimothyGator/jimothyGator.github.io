@@ -7,7 +7,7 @@ $noise-bg: image-url('noise.png') top left;
 $main-bg: #f0eee0;
 $title-color: #f2f2f2;
 $text-color-light: darken($main-bg, 35);
-$header-bg: #333;
+$header-bg: #334;
 $nav-bg: #83b2b4;
 $nav-bg-back: $nav-bg;
 $nav-link-bg: $nav-bg;
@@ -21,10 +21,10 @@ $nav-border-right: none;
 $nav-color-hover: lighten($main-bg, 20);
 
 $footer-bg: $nav-bg;
+$footer-bg-back: $footer-bg;
 $footer-color: darken($footer-bg, 30);
 
 $sidebar-bg: darken($main-bg, 10);
-
 
 //$header-bg: #263347;
 //$subtitle-color: lighten($header-bg, 58);
