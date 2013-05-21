@@ -1,6 +1,10 @@
 <hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+  <h2 id="header-name">{{ site.author-nickname }}'s</h2>
+  <h1>
+  	<a href="{{ root_url }}/">{{ site.title-short }}</a>
+  	<span>website</span>
+  </h1>
   {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
+    <h2 id="header-subtitle">{{ site.subtitle }}</h2>
   {% endif %}
 </hgroup>

@@ -25,10 +25,35 @@ nav .main-navigation, nav ul.secondary-navigation {
 	}
 }
 
-body > header h1 {
-	text-transform: uppercase;
-	font-size: 1.5em;
+body > header {
+	h1, h2 {
+		text-transform: uppercase;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		margin-left: 1em;
+
+		span {
+			font-size: 14pt;
+			color: $subtitle-color;
+			padding: 0em !important;
+			line-height: 14pt;
+
+		}
+	}
+
+	h2 {
+		font-size: 14pt;
+		line-height: 14pt;
+	}
+
+	#header-name {
+		float: none;
+	}
 }
+
+
 
 $header-font-size: 1em;
 $header-padding-top: 1em;
