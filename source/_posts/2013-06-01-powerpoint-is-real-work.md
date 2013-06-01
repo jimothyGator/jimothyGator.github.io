@@ -5,9 +5,9 @@ date: 2013-06-01 12:56
 comments: true
 categories: 
 ---
-One day, I was at the mall with my girlfriend, fulfiling my boyfriendly responsibilities. We passed by the Microsoft store, and she did a double-take. "Wait a minute, isn't the Apple store upstairs?" she asked as she looked in the shop with white walls and evenly spaced tables with computers and gadgets on display. A Microsoft store does, surely by no coincidence, closely resemble an Apple store. But there are at least two obvious differences.
+One day, I was at the mall with my girlfriend, fulfiling my boyfriendly responsibilities. We passed by the Microsoft Store, and she did a double-take. "Wait a minute, isn't the Apple Store upstairs?" she asked as she looked in the shop with white walls and evenly spaced tables with computers and gadgets on display. A Microsoft Store does, surely by no coincidence, closely resemble an Apple Store. But there are at least two obvious differences.
 
-One is the four color logo out front. The second is that the Microsoft store had few customers, in contrast to what is, at this mall at least, a perpetually packed Apple store. There had to be at least twice as many employees as customers, and maybe three times as many.
+One is the four color logo out front. The second is that the Microsoft Store had few customers, in contrast to what is, at this mall at least, a perpetually packed Apple Store. There had to be at least twice as many employees as customers, and maybe three times as many.
 
 "Let's go in," she said.
 
@@ -17,13 +17,13 @@ In other words, she's like the majority of people out there, rather than a geek 
 
 I point this out because what she did next was, honestly, quite geeky.
 
-The Microsoft store had on display, towards the front of the store, a Windows tablet; I believe it was a Samsung. This was before the release of Windows 8, so it was Windows 7 running on a touch screen. It seemed an odd fit, as the controls controls were not sized with fingers in mind, but it also came with a stylus, so if Windows is your thing, and you want a touch screen, I suppose you could make this work.
+The Microsoft Store had on display, towards the front of the store, a Windows tablet; I believe it was a Samsung. This was before the release of Windows 8, so it was Windows 7 running on a touch screen. It seemed an odd fit, as the controls controls were not sized with fingers in mind, but it also came with a stylus, so if Windows is your thing, and you want a touch screen, I suppose you could make this work.
 
 A salesperson in a brightly colored t-shirt with a lanyard around his neck (hmm, I swear I've seen this look before) appoached. "May I help you?"
 
 "Which is better," my better half asks, "this or an iPad?"
 
-As I mentioned, she already has an iPad, so this can mean only one thing: She's trolling at the Microsoft store. Uh oh.
+As I mentioned, she already has an iPad, so this can mean only one thing: She's trolling at the Microsoft Store. Uh oh.
 
 The salesperson starts his speil, which I honestly didn't pay much attention to, because though I was surprised and somewhat amused by her trolling, I decided it was best I not take a part in it. This could only turn into a mall re-enactment of a million pointless Internet arguments, and I was not in the mood.
 
@@ -45,7 +45,7 @@ Unfortunately, I was drawn in. I drew my iPhone, fired up Keynote, and said, "If
 
 "But that's not the full PowerPoint," he responds. He's right, I thought; it's not full of suck like PowerPoint. But I held my tongue as I remember my intent was not to participate in the trolling or any silly argument that ensued. So I said, "I'm sorry, I didn't mean to be a part of this. Honey, did you want to look at this some more?"
 
-She replied no, so we left the store. Once out of earshot of the salesperson, I turned to her and said, "Honey, you just trolled the Microsoft store!"[^2]. I gave her a kiss. I was kind of proud of her geeky ploy there.
+She replied no, so we left the store. Once out of earshot of the salesperson, I turned to her and said, "Honey, you just trolled the Microsoft Store!"[^2]. I gave her a kiss. I was kind of proud of her geeky ploy there.
 
 ## Microsoft Still Loves PowerPoint
 
