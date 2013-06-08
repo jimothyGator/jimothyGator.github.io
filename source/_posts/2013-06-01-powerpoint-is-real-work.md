@@ -45,7 +45,7 @@ Unfortunately, I was drawn in. I drew my iPhone, fired up Keynote, and said, "If
 
 "But that's not the full PowerPoint," he responds. He's right, I thought; it's not full of suck like PowerPoint. But I held my tongue as I remember my intent was not to participate in the trolling or any silly argument that ensued. So I said, "I'm sorry, I didn't mean to be a part of this. Honey, did you want to look at this some more?"
 
-She replied no, so we left the store. Once out of earshot of the salesperson, I turned to her and said, "Honey, you just trolled the Microsoft Store!"[^2]. I gave her a kiss. I was kind of proud of her geeky ploy there.
+She replied no, so we left the store. Once out of earshot of the salesperson, I turned to her and said, "Honey, you just trolled[^2] the Microsoft Store!". I gave her a kiss. I was kind of proud of her geeky ploy there.
 
 ## Microsoft Still Loves PowerPoint
 
@@ -59,6 +59,6 @@ And there's the key different. People buy iPads and iPhones because they want to
 
 We buy toys because we like them and want them. We do "real work" because we have to. People—in particular end consumers—buy iPads not because they have to, but because they want to. Businesses buy cheap PCs so their workers can churn out PowerPoints. There's room for both markets, but if Microsoft is going to go after the iPad market, it had better at least try to understand it so it can market to it.
 
-[^1]: She now uses my old 17" MacBook Pro. Her iPhone 4 is also a hand-me-down from her wonderful and attractive boyfriend.
+[^1]: I've handed down to her my old 17" MacBook Pro and iPhone 4..
 
-[^2]: She wasn't familiar with the term "trolling", so I had to explain it to her. That made this incident all the more amusing to me, since it was out of character for her.
+[^2]: A term I had to explain to her.
