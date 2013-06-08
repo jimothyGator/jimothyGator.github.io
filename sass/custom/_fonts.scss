@@ -3,10 +3,16 @@
 // If you love to use Web Fonts, you also need to add some lines to source/_includes/custom/head.html
 
 $sans: "PT Sans", "Helvetica Neue", Arial, sans-serif;
-//$heading-font-family: "PT Sans", "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+
+//$sans: "Optima", sans-serif;
+
+#content {
+	//font-family: $sans;
+}
+
+$heading-font-family: "Optima", sans-serif;
 
 //$header-title-font-family: $heading-font-family;
-//$sans: "Optima", sans-serif;
 //$serif: "Baskerville", serif;
 //$mono: "Courier", monospace;
 //$heading-font-family: "Verdana", sans-serif;

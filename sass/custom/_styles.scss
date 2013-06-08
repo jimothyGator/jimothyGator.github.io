@@ -64,6 +64,21 @@ body > header {
 }
 
 
+#content .blog-index article, article {
+	h1 {
+		font-size: 1.3em;
+		margin: 0;
+		padding: 0;
+  	}
+	h2 {
+		font-size: 1.1em;
+  	}
+	h3 {
+		font-size: 1.0em;
+  	}
+
+}
+
 
 
 $header-font-size: 1em;
