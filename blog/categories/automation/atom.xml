@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: automation | Super Duper Paratrooper Website]]></title>
+  <link href="http://jimothyGator.github.io/blog/categories/automation/atom.xml" rel="self"/>
+  <link href="http://jimothyGator.github.io/"/>
+  <updated>2013-08-02T08:57:07-04:00</updated>
+  <id>http://jimothyGator.github.io/</id>
+  <author>
+    <name><![CDATA[Jim Cushing]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rules for Automating Manual Tasks]]></title>
+    <link href="http://jimothyGator.github.io/blog/2013/07/24/rules-for-automating-manual-tasks/"/>
+    <updated>2013-07-24T21:20:00-04:00</updated>
+    <id>http://jimothyGator.github.io/blog/2013/07/24/rules-for-automating-manual-tasks</id>
+    <content type="html"><![CDATA[<p>As software developers, we face this dilemna constantly: Should we take the time to automate this repetive task,
+or will we be better off slogging through it manually? Having pondered this many times myself, I have developed
+the following rules for dealing with this decision:</p>
+
+<ol>
+<li>You cannot know how long it will take to manually perform a task until you have already done it.</li>
+<li>You cannot know how long it will take to automate a task until you have already automated it.</li>
+<li>The second or third time you have to manually perform the same task, you&rsquo;ll curse yourself for not automating it.</li>
+<li>After spending hours or days working to automate the task, you will have forgotten why you needed to perform the task if the first place, then curse yourself for not just doing it by hand.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
