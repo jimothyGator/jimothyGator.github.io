@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Getting Started with Python on Mac OS X - Super Duper Paratrooper Website</title>
+  <meta name="author" content="Jim Cushing">
+
+  
+  <meta name="description" content="Getting Started With Python on Mac OS X Aug 2nd, 2013 Mac OS X comes with Python installed, but the version may be out-of-date. These instructions &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jimothyGator.github.io/python/mac-os-x-setup">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Super Duper Paratrooper Website" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link href="/stylesheets/league-gothic.css" rel="stylesheet">
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h2 id="header-name">Jimothy’s</h2>
+  <h1>
+  	<a href="/">Super Duper Paratrooper</a>
+  	<span>website</span>
+  </h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS"><i class="icon-rss"></i></a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/"><i class="icon-home"></i> Home</a></li>
+  <li><a href="/blog/archives"><i class="icon-book"></i> Archives</a></li>
+</ul>
+
+<ul class="secondary-navigation">
+  <li><a href="/atom.xml" title="subscribe via RSS"><i class="icon-rss"></i> Subscribe</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Getting Started With Python on Mac OS X</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-02T09:02:00-04:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2013</time></p>
+  </header>
+  
+  <p>Mac OS X comes with Python installed, but the version may be out-of-date. These instructions describe
+how to install the latest version in the Python 2.x line, as well as some other goodies for Python
+development.</p>
+
+<p>Installing Python via Homebrew has other advantages, as well. In particular, it means you don&rsquo;t need to run <code>sudo</code>
+each time you install a new Python package, making your life as a developer easier.</p>
+
+<h2>Install Homebrew</h2>
+
+<p><a href="http://brew.sh">Homebrew</a> is &ldquo;the missing package manager for Mac OS X.&rdquo; It&rsquo;s similar to Linux package
+managers such as apt on Debian and Ubuntu, or Yum on RHEL and CentOS.</p>
+
+<p>We&rsquo;re going to install Homebrew so we can install other stuff. To do so, open a Terminal window and run
+the following command (copy the line, paste it into Terminal, then hit return):</p>
+
+<pre><code>ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+</code></pre>
+
+<h2>Install Python</h2>
+
+<p>With Homebrew now installed, installing an up-to-date Python is easy. In the terminal, simply run:</p>
+
+<pre><code>brew install python
+</code></pre>
+
+<p>Check that it is installed correctly by running:</p>
+
+<pre><code>python --version
+</code></pre>
+
+<p>This should print <code>Python 2.7.5</code> (or later; 2.7.5 was the latest at the time this was written).</p>
+
+<p>This also installs Pip, a Python package manager. You can verify that by running:</p>
+
+<pre><code>pip --version
+</code></pre>
+
+<p>It should print something like <code>pip 1.4 from /usr/local/lib/python2.7/site-packages/pip-1.4-py2.7.egg (python 2.7)</code>.</p>
+
+<h2>Install Virtualenv</h2>
+
+<p>&ldquo;<a href="http://www.virtualenv.org/en/latest/">Virtualenv</a> is a tool to create isolated Python environments.&rdquo; In other words, while you&rsquo;re fiddling around with Python, you don&rsquo;t have to worry about screwing things up. :) There&rsquo;s more to it than that, but that explanation should suffice for now.</p>
+
+<p>Run the following commands in Terminal:</p>
+
+<pre><code>pip install virtualenv
+pip install virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
+</code></pre>
+
+<p>Also, put the last line (<code>source /usr/local/bin/virtualenvwrapper.sh</code>) in your <code>.bashrc</code>, <code>.bash_profile</code>, <code>.zshrc</code>, etc. so virtualenvwrapper is automatically loaded when you open a new Terminal shell.</p>
+
+<h2>Install IPython</h2>
+
+<p><a href="http://ipython.org">IPython</a> is an interative shell, and is an improvement to the shell that comes with Python.</p>
+
+<p>In the Terminal, run:</p>
+
+<pre><code>pip install ipython
+</code></pre>
+
+<p>Try it out:</p>
+
+<pre><code>ipython
+
+In [1]: print "Hello, world!"
+Hello, world!
+</code></pre>
+
+<p>Great job! You&rsquo;ll now set up to learn and play with Python.</p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-02T09:02:00-04:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2013</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jimothyGator.github.io/python/mac-os-x-setup/index.html" data-via="jimothyGator" data-counturl="http://jimothyGator.github.io/python/mac-os-x-setup/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts <i class="icon-time"></i></h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/24/rules-for-automating-manual-tasks/">Rules for Automating Manual Tasks</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/01/powerpoint-is-real-work/">PowerPoint Is "Real Work"</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/30/microsoft-store-fun/">Having Fun at the Microsoft Store</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Jim Cushing -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
