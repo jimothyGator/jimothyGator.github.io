@@ -30,7 +30,7 @@ Install Python
 
 With Homebrew now installed, installing an up-to-date Python is easy. In the terminal, simply run:
 
-	brew install python
+	brew install python --framework
 
 Check that it is installed correctly by running:
 
